@@ -100,40 +100,33 @@ More can be added instantly by creating additional `JSON` files in:
 ---
 
 # 🚀 **Getting Started**
-
 ## Run Locally
 
+```
 **Prerequisites:**  Node.js
-
 
 1. Install dependencies:
    `npm install`
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
-
-
+```
 ### 1️⃣ Clone the Repository
-
 ```bash
 git clone https://github.com/Satyarth-Sahu17/AstraaPath.git
 cd AstraaPath
 ```
 
 ### 2️⃣ Install Dependencies
-
 ```bash
 npm install
 ```
 
 ### 3️⃣ Run the Project
-
 ```bash
 npm run dev
 ```
-
 your project will start on a Vite dev server.
-
 ---
 
 # 🧪 **Safety Scoring Logic (Simplified)**
