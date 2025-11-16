@@ -74,12 +74,11 @@ graph TD;
 
 # 🌐 **Multilingual Support (i18n)**
 
-AstraaPath uses **react‑i18next** for full website translation.
+AstraaPath uses **react‑i18next** for full website translation. 
+And readmelingoo for the translation of components and files. 
+And features of Lingo.dev inside react components to address the need of various users across the borders. 
 
-More can be added instantly by creating additional `JSON` files in:
-
-```
-```
+More can be added instantly by creating additional `JSON` files.
 
 ### 📌 Example Translation File (`en.json`)
 
