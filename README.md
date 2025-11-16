@@ -8,7 +8,7 @@ AstraaPath also includes **full website internationalization (i18n)** using **re
 
 ## 🌍 **Why AstraaPath? (USP)**
 
-* **Safety‑First Navigation** — Instead of shortest‑route logic only, AshaPath prioritizes crime‑aware routing.
+* **Safety‑First Navigation** — Instead of shortest‑route logic only, AstraaPath prioritizes crime‑aware routing.
 * **Day/Night Dynamic Route Selection** — Crime severity and safety vary by time; AstraaPath adjusts recommendations accordingly.
 * **Multilingual Interface** — Implemented using `i18next`, supporting quick expansion to 40+ languages.
 * **Data‑Driven** — Uses verified public datasets and official police incident records.
@@ -75,12 +75,10 @@ graph TD;
 # 🌐 **Multilingual Support (i18n)**
 
 AstraaPath uses **react‑i18next** for full website translation.
-And readmelingoo for translating the components and the readme. 
-The core idea of using the Lingo.dev is to create a welcoming website for all the users of all types, 
-across the borders and without the worry of language boundations. 
+
+More can be added instantly by creating additional `JSON` files in:
 
 ```
-More can be added instantly by creating additional `JSON` files in:
 ```
 
 ### 📌 Example Translation File (`en.json`)
@@ -93,40 +91,35 @@ More can be added instantly by creating additional `JSON` files in:
   "findRoute": "Find Safest Route"
 }
 ```
+## Run Locally
 
-### 📌 i18n Initialization (`src/i18n/index.ts`)
-
-```ts
+**Prerequisites:**  Node.js
+1. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 ---
 
 # 🚀 **Getting Started**
-## Run Locally
 
-```
-**Prerequisites:**  Node.js
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-```
 ### 1️⃣ Clone the Repository
+
 ```bash
 git clone https://github.com/Satyarth-Sahu17/AstraaPath.git
 cd AstraaPath
 ```
 
 ### 2️⃣ Install Dependencies
+
 ```bash
 npm install
 ```
 
 ### 3️⃣ Run the Project
+
 ```bash
 npm run dev
 ```
+
 your project will start on a Vite dev server.
+
 ---
 
 # 🧪 **Safety Scoring Logic (Simplified)**
@@ -167,10 +160,9 @@ safetyScore = (1 / crimeDensity) * weightTimeOfDay * severityFactor
 ---
 
 # 📜 **License**
-
 MIT License
 
-Copyright (c) 2025 Sree Vishishta, Shravani Dhuri and Satyarth Sahu, 
+Copyright (c) 2025 Sree Vishishta, Shravani Dhuri & Satyarth Sahu.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
