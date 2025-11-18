@@ -191,4 +191,4 @@ For issues or feature requests, visit:
 
 ---
 
-AstraaPath — *Because safety should never be optional.*
+AstraaPath — *Navigate Safely. Travel Smart.*
